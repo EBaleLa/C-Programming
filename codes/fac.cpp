@@ -1,5 +1,4 @@
 #include <iostream>
-#include<conio.h>
 using namespace std;
 int fac(int d){
     int r=1;
@@ -9,7 +8,6 @@ int fac(int d){
        return r;
     }
 main(){
-     cout << fac(5);     
-     getch();
+     cout << fac(5);
      return 0;
 }
